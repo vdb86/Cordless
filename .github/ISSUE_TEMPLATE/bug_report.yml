@@ -1,0 +1,72 @@
+name: 🐞 Bug report
+description: Something in Cordless isn't working the way it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please search [existing issues](../issues) first to avoid duplicates.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly. What did you see?
+      placeholder: When I connect to my PC and open the touchpad, Cordless...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: The pointer should have...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we make the bug happen?
+      placeholder: |
+        1. Open Cordless
+        2. Connect to ...
+        3. See error
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone model
+      placeholder: e.g. Samsung Galaxy S25+, Google Pixel 8
+    validations:
+      required: true
+  - type: input
+    id: android-version
+    attributes:
+      label: Android version
+      placeholder: e.g. Android 15
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Host device you're controlling
+      description: The device Cordless connects to, and its OS.
+      placeholder: e.g. Windows 11 PC, Android TV box
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Cordless version
+      description: Find it in the app's settings, or on the Google Play listing.
+      placeholder: e.g. 1.0
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording (optional)
+      description: Drag and drop images or a short video here if it helps show the problem.
+    validations:
+      required: false
