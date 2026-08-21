@@ -7,6 +7,17 @@ body:
     attributes:
       value: |
         Thanks for taking the time to report a bug! Please search [existing issues](../issues) first to avoid duplicates.
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Known issue - Xiaomi, Redmi and POCO phones can't pair.** If you start pairing from your computer and then your **phone** shows **"Incorrect PIN or passkey"** (while the computer looks like it paired), this is a bug in the phone's own Bluetooth software - not in Cordless - and no app can fix it. It affects Xiaomi, Redmi and POCO (same MIUI/HyperOS software). Please don't open a new report for this on those phones. If you see it on a phone from a **different** manufacturer, we'd love to know - continue below.
+  - type: checkboxes
+    id: known-issue
+    attributes:
+      label: Known-issue check
+      options:
+        - label: My phone is NOT a Xiaomi, Redmi or POCO, OR my bug is not the "Incorrect PIN or passkey" pairing failure described above.
+          required: true
   - type: textarea
     id: what-happened
     attributes:
