@@ -82,20 +82,20 @@ This is a limitation of how Windows and macOS handle non-Xbox controllers, not o
 
 <table>
   <tr>
-    <td align="center"><img src="Screenshots/1.jpg" width="200"/><br/><sub><b>Keyboard</b><br/>Full on-screen keyboard + text bar</sub></td>
-    <td align="center"><img src="Screenshots/2.jpg" width="200"/><br/><sub><b>Touchpad</b><br/>Mouse pad with click buttons & scroll</sub></td>
-    <td align="center"><img src="Screenshots/3.jpg" width="200"/><br/><sub><b>Media remote</b><br/>D-pad, OK & playback controls</sub></td>
-    <td align="center"><img src="Screenshots/4.jpg" width="200"/><br/><sub><b>Presenter</b><br/>Slide controls & trackpad</sub></td>
+    <td align="center"><img src="Screenshots/Keyboard.jpg" width="200"/><br/><sub><b>Keyboard</b><br/>Full on-screen keyboard + text bar</sub></td>
+    <td align="center"><img src="Screenshots/Touchpad.jpg" width="200"/><br/><sub><b>Touchpad</b><br/>Mouse pad with click buttons & scroll</sub></td>
+    <td align="center"><img src="Screenshots/Media%20remote.jpg" width="200"/><br/><sub><b>Media remote</b><br/>D-pad, OK & playback controls</sub></td>
+    <td align="center"><img src="Screenshots/Presentation.jpg" width="200"/><br/><sub><b>Presenter</b><br/>Slide controls & trackpad</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="Screenshots/5.jpg" width="200"/><br/><sub><b>Gamepad</b><br/>Dual sticks, buttons, triggers, gyro aim</sub></td>
-    <td align="center"><img src="Screenshots/6.jpg" width="200"/><br/><sub><b>Settings</b><br/>Sidebar, macros, themes & more</sub></td>
-    <td align="center"><img src="Screenshots/7.jpg" width="200"/><br/><sub><b>Layout editor</b><br/>Shapes, colours, borders & behaviour</sub></td>
-    <td align="center"><img src="Screenshots/8.jpg" width="200"/><br/><sub><b>Action picker</b><br/>Modifiers, function & full keyboard keys</sub></td>
+    <td align="center"><img src="Screenshots/Gamepad.jpg" width="200"/><br/><sub><b>Gamepad</b><br/>Dual sticks, buttons, triggers, gyro aim</sub></td>
+    <td align="center"><img src="Screenshots/Settings.jpg" width="200"/><br/><sub><b>Settings</b><br/>Sidebar, macros, themes & more</sub></td>
+    <td align="center"><img src="Screenshots/Edit%20button.jpg" width="200"/><br/><sub><b>Layout editor</b><br/>Shapes, colours, borders & behaviour</sub></td>
+    <td align="center"><img src="Screenshots/Select%20key.jpg" width="200"/><br/><sub><b>Action picker</b><br/>Modifiers, function & full keyboard keys</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="Screenshots/9.jpg" width="200"/><br/><sub><b>Media keys</b><br/>Play/pause, volume & browser keys</sub></td>
-    <td align="center"><img src="Screenshots/10.jpg" width="200"/><br/><sub><b>OS shortcuts</b><br/>Ready-made keys per operating system</sub></td>
+    <td align="center"><img src="Screenshots/Select%20media%20key.jpg" width="200"/><br/><sub><b>Media keys</b><br/>Play/pause, volume & browser keys</sub></td>
+    <td align="center"><img src="Screenshots/Select%20OS%20key.jpg" width="200"/><br/><sub><b>OS shortcuts</b><br/>Ready-made keys per operating system</sub></td>
     <td></td>
     <td></td>
   </tr>
