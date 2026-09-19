@@ -51,9 +51,25 @@ Cordless turns your Android phone into a wireless keyboard, touchpad/mouse, medi
 
 Cordless uses the native Android Bluetooth HID device role, so the other device sees a standard Bluetooth keyboard, mouse, and gamepad. To connect the first time, open your computer or TV's own **Add a Bluetooth device** screen and pick your phone. After that, Cordless reconnects automatically. Works with Windows and Android hosts.
 
-The keyboard, touchpad, media keys, and remote layouts work out of the box on every host - nothing extra to install.
+The keyboard, touchpad, media keys, and remote layouts work out of the box on every host that accepts them - nothing extra to install.
 
-## ⚠️ Known issue: some Xiaomi phones can't pair
+## ⚠️ Device compatibility
+
+Two devices have to cooperate: **your phone**, which has to be able to act as a Bluetooth keyboard, and **the device you want to control**, which has to be willing to accept one. Most combinations work. Some don't, and there is no reliable way to tell in advance - nothing in the Bluetooth handshake lets an app ask a host whether it will accept a generic keyboard before trying.
+
+That is why the keyboard and touchpad are free with no time limit: pair once, confirm it works with your own gear, and only then think about Pro.
+
+| | |
+|---|---|
+| **Reliable** | Windows PCs and laptops, Macs, Linux machines, Android phones and tablets |
+| **Known not to work** | Some Xiaomi / Redmi / POCO phones (see below); Chromecast with Google TV |
+| **Hit and miss** | TVs and streaming boxes - many only pair with accessories they recognise (their own remote, headphones, sometimes a game controller) and refuse everything else; others work perfectly |
+
+**Chromecast with Google TV** will not pair with a phone acting as a keyboard. Google TV is a Bluetooth HID *host* only for accessories it recognises, so the pairing either never completes or completes and does nothing. This is a Google TV restriction, not something Cordless can work around.
+
+Please [report](../../issues/new?template=bug_report.yml) what does and doesn't work on your devices - it's the only way a real compatibility list gets built.
+
+### Some Xiaomi phones can't pair
 
 A few phones have a bug in the phone's **own Bluetooth software** that stops them pairing as a keyboard/mouse/controller. So far this is confirmed on **Xiaomi** devices - and it also affects **Redmi** and **POCO**, which run the same MIUI/HyperOS software.
 
@@ -109,8 +125,8 @@ The free version gives you a fully working **keyboard and touchpad** - everythin
 
 ## Requirements
 
-- Android 10 (API 29) or newer
-- A host that accepts a standard Bluetooth keyboard/mouse/gamepad (Windows or Android)
+- Android 10 (API 29) or newer, on a phone whose Bluetooth stack can act as a keyboard (see [Device compatibility](#%EF%B8%8F-device-compatibility))
+- A host that accepts a standard Bluetooth keyboard/mouse/gamepad - computers and Android devices almost always do; TVs and streaming boxes are the unreliable ones
 
 > Game consoles (Xbox, PlayStation, Switch) are **not** supported - they reject standard Bluetooth controllers. Cordless targets PC and Android.
 
