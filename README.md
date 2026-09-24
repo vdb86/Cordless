@@ -36,7 +36,8 @@ Cordless turns your Android phone into a wireless keyboard, touchpad/mouse, medi
 
 ## Features
 
-- **Keyboard** - a full on-screen keyboard with modifiers and a quick text-input bar.
+- **Keyboard** - a full on-screen keyboard with modifiers, a quick text-input bar and 300+ host keyboard layouts, so what you type comes out right on the other device.
+- **Share to type** - share text from any app to "Type with Cordless" and it is typed on the connected device.
 - **Touchpad** - a smooth mouse pad with left/middle/right buttons, two-finger scroll, and a scroll strip.
 - **Media & system keys** - play/pause, volume, and other consumer controls.
 - **Remotes** - build your own button layouts for a media remote, a presentation clicker, or app shortcuts.
@@ -45,11 +46,12 @@ Cordless turns your Android phone into a wireless keyboard, touchpad/mouse, medi
 - **Themes** - restyle your controls with built-in presets or save your own.
 - **Macros** - record a sequence of key presses once and reuse it on any button.
 - **Backup & restore** - export your whole setup to a file and bring it back any time.
-- **No ads, no tracking, no internet access.**
+- **Available in 50 languages** (see [Languages](#-languages)).
+- **No ads, no tracking.**
 
 ## How it connects
 
-Cordless uses the native Android Bluetooth HID device role, so the other device sees a standard Bluetooth keyboard, mouse, and gamepad. To connect the first time, open your computer or TV's own **Add a Bluetooth device** screen and pick your phone. After that, Cordless reconnects automatically. Works with Windows and Android hosts.
+Cordless uses the native Android Bluetooth HID device role, so the other device sees a standard Bluetooth keyboard, mouse, and gamepad. To connect the first time, open your computer or TV's own **Add a Bluetooth device** screen and pick your phone. After that, Cordless reconnects automatically. Pair several hosts and switch between them from the Devices screen.
 
 The keyboard, touchpad, media keys, and remote layouts work out of the box on every host that accepts them - nothing extra to install.
 
@@ -132,4 +134,12 @@ The free version gives you a fully working **keyboard and touchpad** - everythin
 
 ## Privacy
 
-Cordless processes everything locally on your device. It does not request the internet permission, so nothing you type or tap can leave your phone. No analytics. No tracking. No account.
+Cordless processes everything locally on your device. No analytics. No tracking. No account.
+
+## 🌍 Languages
+
+Cordless is available in **50 languages** and follows your phone's language automatically:
+
+Arabic, Bengali, Bulgarian, Catalan, Chinese (Simplified), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Korean, Latvian, Lithuanian, Malayalam, Marathi, Norwegian, Persian, Polish, Portuguese (Brazil and Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic and Latin), Slovak, Slovenian, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese and Zulu.
+
+If something reads wrong in your language, please [report it](../../issues/new?template=bug_report.yml).
