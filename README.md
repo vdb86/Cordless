@@ -16,6 +16,9 @@
 
 </div>
 
+> [!WARNING]
+> **Try it free first.** Pair your phone and test the free keyboard and touchpad with the device you want to control. Only buy Pro once that works: most setups pair fine, but some don't - some manufacturers only allow specific Bluetooth devices such as earphones and earbuds, and some phones (including some Xiaomi models) can't pair as a keyboard - and there is no way to know before you try. Pro adds features; it can't make a device pair. See [Device compatibility](#%EF%B8%8F-device-compatibility).
+
 ---
 
 ## 💬 Feedback, bug reports & feature requests
@@ -51,7 +54,7 @@ Cordless turns your Android phone into a wireless keyboard, touchpad/mouse, medi
 
 ## How it connects
 
-Cordless uses the native Android Bluetooth HID device role, so the other device sees a standard Bluetooth keyboard, mouse, and gamepad. To connect the first time, open your computer or TV's own **Add a Bluetooth device** screen and pick your phone. After that, Cordless reconnects automatically. Pair several hosts and switch between them from the Devices screen.
+Cordless uses the native Android Bluetooth HID device role, so the other device sees a standard Bluetooth keyboard, mouse, and gamepad. To connect the first time, tap **Make phone discoverable** in Cordless's Devices screen, then open your computer or TV's own **Add a Bluetooth device** screen and pick your phone (it is listed under the phone's own Bluetooth name). If the two were paired before, **unpair them on both sides first** - Cordless needs to send the other device new information. After that, Cordless reconnects automatically. Pair several hosts and switch between them from the Devices screen.
 
 The keyboard, touchpad, media keys, and remote layouts work out of the box on every host that accepts them - nothing extra to install.
 
@@ -65,7 +68,7 @@ That is why the keyboard and touchpad are free with no time limit: pair once, co
 |---|---|
 | **Reliable** | Windows PCs and laptops, Macs, Linux machines, Android phones and tablets |
 | **Known not to work** | Some Xiaomi / Redmi / POCO phones (see below); Chromecast with Google TV |
-| **Hit and miss** | TVs and streaming boxes - many only pair with accessories they recognise (their own remote, headphones, sometimes a game controller) and refuse everything else; others work perfectly |
+| **Hit and miss** | TVs, streaming boxes and some other devices - some manufacturers only allow specific Bluetooth devices to pair (earphones and earbuds, their own remote, sometimes a game controller) and refuse everything else; others work perfectly |
 
 **Chromecast with Google TV** will not pair with a phone acting as a keyboard. Google TV is a Bluetooth HID *host* only for accessories it recognises, so the pairing either never completes or completes and does nothing. This is a Google TV restriction, not something Cordless can work around.
 
@@ -121,7 +124,7 @@ This is a limitation of how Windows and macOS handle non-Xbox controllers, not o
 
 ## Free & Pro
 
-The free version gives you a fully working **keyboard and touchpad** - everything you need to control another device.
+The free version gives you a fully working **keyboard and touchpad** - everything you need to control another device, and the way to check that your devices pair before you buy anything (see the warning at the top).
 
 **Cordless Pro** is a single one-time purchase (no subscriptions) that unlocks remote layouts, gamepad controls, the custom layout editor, themes, macros, backup & restore, and extra settings.
 
